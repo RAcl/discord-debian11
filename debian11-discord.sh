@@ -16,6 +16,7 @@ mv DEBIAN unpack
 sed 's/libappindicator1/libayatana-appindicator1/' unpack/DEBIAN/control -i
 VERSION=$(grep 'Version' unpack/DEBIAN/control | awk -F: '{print $2}' | sed 's/ //g')
 FIXED=$(echo discord-fixed-${VERSION}.deb)
+sudo chown root:root -R unpack
 dpkg -b unpack $FIXED
-rm -rf unpack
+sudo rm -rf unpack
 sudo apt install ./$FIXED

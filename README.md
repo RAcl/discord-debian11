@@ -22,8 +22,8 @@ El uso del secript debe ser similar a lo siguente:
 ```bash
 git clone https://gitlab.com/bash-script/discord-debian11.git
 cd discord-debian11
-wget https://dl.discordapp.net/apps/linux/0.0.17/discord-0.0.17.deb
-sh debian11-discord.sh discord-0.0.17.deb
+wget https://dl.discordapp.net/apps/linux/0.0.18/discord-0.0.18.deb
+sh debian11-discord.sh discord-0.0.18.deb
 ```
 
-donde 0.0.17 es la versión actual de discord, se ha probado con las versiones 0.0.16 y 0.0.17, pero se asume puede funcionar con una posterior.
+donde 0.0.18 es la versión actual de discord, se ha probado con las versiones 0.0.16, 0.0.17 y 0.0.18, pero se asume puede funcionar con una posterior.
