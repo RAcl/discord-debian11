@@ -1,23 +1,23 @@
 # discord-debian11
 
-Convertir el deb de discord  hecho para ubuntu a debian11
+Convert the discord deb made for ubuntu to debian11
 
-## Descripción
+## Descripction
 
-Discord actualmente tiene un paquete creado para ubuntu, sin embargo,
-falla por dependencias al intentar instalarlo en debian 11. Esto se
-debe a que la liberia no tiene el mismo nombre bajo debian que en ubuntu,
-por lo que es necesario cambiar la lista de dependencias del paquete
-a instalar.
+Discord currently has a package created for ubuntu, however,
+it fails due to dependencies when trying to install it on debian 11. This is
+because the library does not have the same name under debian as in ubuntu,
+so it is necessary to change the package's
+dependency list to install.
 
-## Basado en
+## Based on
 
-Este script está basado en los pasos indicados en el sitio web
+This script is based on the steps indicated on the website
 https://www.linuxcapable.com/how-to-install-discord-on-debian-11-bullseye
 
-## USO
+## USAGE
 
-El uso del secript debe ser similar a lo siguente:
+The use of the script should be similar to the following:
 
 ```bash
 git clone https://gitlab.com/bash-script/discord-debian11.git
@@ -25,5 +25,6 @@ cd discord-debian11
 wget https://dl.discordapp.net/apps/linux/0.0.18/discord-0.0.18.deb
 sh debian11-discord.sh discord-0.0.18.deb
 ```
+where 0.0.18 is the discord version.
 
-donde 0.0.18 es la versión actual de discord, se ha probado con las versiones 0.0.16, 0.0.17 y 0.0.18, pero se asume puede funcionar con una posterior.
+It has been successfully tested from version 0.0.16 to 0.0.24.
