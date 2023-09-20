@@ -27,4 +27,4 @@ sh debian11-discord.sh discord-0.0.18.deb
 ```
 where 0.0.18 is the discord version.
 
-It has been successfully tested from version 0.0.16 to 0.0.24.
+It has been successfully tested from dicord versions' 0.0.16 to 0.0.30.
