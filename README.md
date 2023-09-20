@@ -20,7 +20,7 @@ https://www.linuxcapable.com/how-to-install-discord-on-debian-11-bullseye
 The use of the script should be similar to the following:
 
 ```bash
-git clone https://gitlab.com/bash-script/discord-debian11.git
+git clone https://github.com/RAcl/discord-debian11.git
 cd discord-debian11
 wget https://dl.discordapp.net/apps/linux/0.0.18/discord-0.0.18.deb
 sh debian11-discord.sh discord-0.0.18.deb
